@@ -1,3 +1,3 @@
 # loginsimPy
-A login simulator in Python
-This isa CLI Aplication.
+A login simulator in Python <br>
+This is a CLI Aplication.
