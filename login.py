@@ -1,0 +1,7 @@
+print("\n")
+print("Hello")
+print("=====")
+id = input("UserName : ")
+passwd = input("Password : ")
+print("=====")
+print("\n")
