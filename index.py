@@ -1,11 +1,16 @@
-import signin, signup
+import signin, signup, sqlite3
 
-print("HELLO !")
-print("WELCOME TO DUMMY")
-print("\nChoose weather you want to Sing-In or Sign-Up")
-print("1 : Sign-In    2 : Sign-Up")
-n = input("\nType your response : ")
-if n==1 : 
-    signin()
-else :
-    signup()
+def choose() : 
+    print("\nChoose weather you want to Sing-In or Sign-Up")
+    print("1 : Sign-In    2 : Sign-Up")
+    n = input("\nType your response : ")
+    if (n==1) : 
+        signin()
+    else if (n == 2) :
+        signup()
+    else : 
+        print("WRONG RESPONSE. TRY AGAIN.")
+def main() :
+    print("HELLO !")
+    print("WELCOME TO DUMMY")
+    choose()
