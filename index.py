@@ -1,4 +1,5 @@
-import signin, signup, sqlite3
+import sqlite3
+import signin, signup
 
 def choose() : 
     print("\nChoose weather you want to Sing-In or Sign-Up")
