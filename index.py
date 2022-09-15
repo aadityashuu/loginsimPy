@@ -6,7 +6,7 @@ def choose() :
     n = input("\nType your response : ")
     if (n==1) : 
         signin()
-    else if (n == 2) :
+    elif (n == 2) :
         signup()
     else : 
         print("WRONG RESPONSE. TRY AGAIN.")
